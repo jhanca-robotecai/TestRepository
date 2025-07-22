@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder JHO3DETestGem/Assets": {
+                    "watch": "@GEMROOT:JHO3DETestGem@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder JHO3DETestGem/Registry": {
+                    "watch": "@GEMROOT:JHO3DETestGem@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

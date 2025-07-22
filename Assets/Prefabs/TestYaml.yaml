@@ -1,0 +1,82 @@
+ContainerEntity:
+  Components:
+    EditorDisabledCompositionComponent:
+      $type: EditorDisabledCompositionComponent
+      Id: 7496609828611776972
+    EditorEntityIconComponent:
+      $type: EditorEntityIconComponent
+      Id: 3523228078059553068
+    EditorEntitySortComponent:
+      $type: EditorEntitySortComponent
+      Child Entity Order:
+        - Entity_[848047516291]
+      Id: 1707428956044665116
+    EditorInspectorComponent:
+      $type: EditorInspectorComponent
+      Id: 940709420827711771
+    EditorLockComponent:
+      $type: EditorLockComponent
+      Id: 18260299529704328315
+    EditorOnlyEntityComponent:
+      $type: EditorOnlyEntityComponent
+      Id: 6355122484898014801
+    EditorPendingCompositionComponent:
+      $type: EditorPendingCompositionComponent
+      Id: 2449518580509097612
+    EditorPrefabComponent:
+      $type: EditorPrefabComponent
+      Id: 12088564856072747048
+    EditorVisibilityComponent:
+      $type: EditorVisibilityComponent
+      Id: 8618357151546965952
+    TransformComponent:
+      $type: "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent"
+      Id: 599477500420238815
+      Parent Entity: ""
+  Id: ContainerEntity
+  Name: TestPrefab
+Entities:
+  Entity_[848047516291]:
+    Components:
+      AZ::Render::EditorMeshComponent:
+        $type: AZ::Render::EditorMeshComponent
+        Controller:
+          Configuration:
+            ModelAsset:
+              assetHint: materialeditor/viewportmodels/beveledcube.fbx.azmodel
+              assetId:
+                guid: "{8F19FB6D-DF18-5CC0-B921-6755089004D7}"
+                subId: 275006192
+        Id: 12584113358472784980
+      EditorDisabledCompositionComponent:
+        $type: EditorDisabledCompositionComponent
+        Id: 10365719293846097368
+      EditorEntityIconComponent:
+        $type: EditorEntityIconComponent
+        Id: 3185247586586090962
+      EditorEntitySortComponent:
+        $type: EditorEntitySortComponent
+        Id: 18158580572691920992
+      EditorInspectorComponent:
+        $type: EditorInspectorComponent
+        Id: 6987695599032705566
+      EditorLockComponent:
+        $type: EditorLockComponent
+        Id: 6391126651642985960
+      EditorOnlyEntityComponent:
+        $type: EditorOnlyEntityComponent
+        Id: 17496216563471727810
+      EditorPendingCompositionComponent:
+        $type: EditorPendingCompositionComponent
+        Id: 240098481767050482
+      EditorVisibilityComponent:
+        $type: EditorVisibilityComponent
+        Id: 16974227917406887087
+      TransformComponent:
+        $type: "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent"
+        Id: 8141435154381655281
+        Parent Entity: ContainerEntity
+        Transform Data:
+          UniformScale: 2.0
+    Id: Entity_[848047516291]
+    Name: TestPrefab
